@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the BrewTime Café menu – freshly brewed coffee, teas, and homemade pastries.">
+    <meta name="author" content="BrewTime Café">
+    <title>Menu | BrewTime Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #6B4226;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #CBBEB5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #000;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .menu-section {
+            margin: 40px 0;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            background: #fff8f0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        .menu-item h4 {
+            margin: 10px 0 5px;
+        }
+        .menu-item p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #444;
+        }
+        .menu-item span {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #6B4226;
+        }
+        footer {
+            background: #6B4226;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>☕ BrewTime Café</h1>
+        <p>Our Menu – Fresh, Delicious, Made with Love</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        <h2>Our Menu</h2>
+
+        <!-- Coffee Section -->
+        <section class="menu-section">
+            <h3>☕ Coffee</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="espresso.jpg" alt="Espresso">
+                    <h4>Espresso</h4>
+                    <p>Rich and bold single shot</p>
+                    <span>R25</span>
+                </div>
+                <div class="menu-item">
+                    <img src="cappuccino.jpg" alt="Cappuccino">
+                    <h4>Cappuccino</h4>
+                    <p>Espresso, steamed milk & foam</p>
+                    <span>R35</span>
+                </div>
+                <div class="menu-item">
+                    <img src="latte.jpg" alt="Latte">
+                    <h4>Latte</h4>
+                    <p>Smooth espresso with steamed milk</p>
+                    <span>R40</span>
+                </div>
+                <div class="menu-item">
+                    <img src="mocha.jpg" alt="Mocha">
+                    <h4>Mocha</h4>
+                    <p>Espresso, chocolate & milk</p>
+                    <span>R45</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tea Section -->
+        <section class="menu-section">
+            <h3>🍵 Teas</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="green-tea.jpg" alt="Green Tea">
+                    <h4>Green Tea</h4>
+                    <p>Fresh and calming</p>
+                    <span>R20</span>
+                </div>
+                <div class="menu-item">
+                    <img src="rooibos.jpg" alt="Rooibos Tea">
+                    <h4>Rooibos</h4>
+                    <p>South African classic</p>
+                    <span>R25</span>
+                </div>
+                <div class="menu-item">
+                    <img src="chai-latte.jpg" alt="Chai Latte">
+                    <h4>Chai Latte</h4>
+                    <p>Spiced tea with milk</p>
+                    <span>R35</span>
+                </div>
+                <div class="menu-item">
+                    <img src="earl-grey.jpg" alt="Earl Grey Tea">
+                    <h4>Earl Grey</h4>
+                    <p>Classic black tea</p>
+                    <span>R25</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pastries Section -->
+        <section class="menu-section">
+            <h3>🥐 Pastries</h3>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="croissant.jpg" alt="Croissant">
+                    <h4>Croissant</h4>
+                    <p>Buttery and flaky</p>
+                    <span>R30</span>
+                </div>
+                <div class="menu-item">
+                    <img src="muffin.jpg" alt="Muffin">
+                    <h4>Muffin</h4>
+                    <p>Blueberry or Chocolate</p>
+                    <span>R25</span>
+                </div>
+                <div class="menu-item">
+                    <img src="cheesecake.jpg" alt="Cheesecake">
+                    <h4>Cheesecake</h4>
+                    <p>Creamy baked slice</p>
+                    <span>R45</span>
+                </div>
+                <div class="menu-item">
+                    <img src="brownie.jpg" alt="Brownie">
+                    <h4>Brownie</h4>
+                    <p>Rich chocolate square</p>
+                    <span>R35</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BrewTime Café | Brewtown</p>
+    </footer>
+</body>
+</html>
